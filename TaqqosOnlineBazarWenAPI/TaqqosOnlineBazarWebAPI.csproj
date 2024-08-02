@@ -21,4 +21,8 @@
     <ProjectReference Include="..\Taqqos.DataAcces\Taqqos.DataAcces.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
