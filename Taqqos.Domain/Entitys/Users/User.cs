@@ -19,15 +19,13 @@ namespace Taqqos.Domain.Entitys.Users
         [Required, MaxLength(50)]
         public string Username { get; set; }
         [Required, MaxLength(5)]
-        public string Password { get; set; }
+        public string Password { get; set; } 
         public string Email { get; set; }
 
         public long? AddressId { get; set; }
         public HomeAddress? Address { get; set; }
         [Required]
         public Gender Gender { get; set; }
-        public long? ImageId { get; set; }
-        public Attachment? Image { get; set; }
         public UserRole Role { get; set; } = UserRole.User;
         public DateTime? DateOfBirth { get; set; }
         public long Orsers { get; set; }
