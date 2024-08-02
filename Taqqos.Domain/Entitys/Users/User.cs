@@ -26,8 +26,6 @@ namespace Taqqos.Domain.Entitys.Users
         public HomeAddress? Address { get; set; }
         [Required]
         public Gender Gender { get; set; }
-        public long? ImageId { get; set; }
-        public Attachment? Image { get; set; }
         public UserRole Role { get; set; } = UserRole.User;
         public DateTime? DateOfBirth { get; set; }
         public long Orsers { get; set; }
